@@ -62,12 +62,11 @@ def factorial(n):
         return n*factorial(n-1)
 
   
-    
- def reverse(word):
-        s = ""
-        for ch in word:
-            s = ch + s
-        return s
+def reverse(word):
+       s = ""
+       for ch in word:
+           s = ch + s
+       return s
         #if len(word) == 0:
             #return word
         #else:
