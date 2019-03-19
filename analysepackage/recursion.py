@@ -77,7 +77,11 @@ def reverse(word):
     'erolpxe'
     '''
     def reverse(word):
-        if len(word) == 0:
-            return word
-        else:
-            return reverse(word[1:]) + word[0]
+        s = ""
+        for ch in word:
+            s = ch + s
+        return s
+        #if len(word) == 0:
+            #return word
+        #else:
+            #return reverse(word[1:]) + word[0]
