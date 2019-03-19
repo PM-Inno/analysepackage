@@ -61,22 +61,9 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 
-def reverse(word):
-
-    '''Return word in reverse
+  
     
-    
-    Args:
-    word (str):
-    
-    Returns:
-    str : word in reverse 
-    
-    Examples:
-    >>>reverse('explore')
-    'erolpxe'
-    '''
-    def reverse(word):
+ def reverse(word):
         s = ""
         for ch in word:
             s = ch + s
