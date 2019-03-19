@@ -54,17 +54,17 @@ def merge(A, B):
 
 
 def quick_sort(items):
-    if len(x) == 1 or len(x) == 0:
-        return x
+    if len(items) == 1 or len(items) == 0:
+        return items
     else:
-        pivot = x[0]
+        pivot = items[0]
         i = 0
-        for j in range(len(x)-1):
-            if x[j+1] < pivot:
-                x[j+1],x[i+1] = x[i+1], x[j+1]
+        for j in range(len(items)-1):
+            if items[j+1] < pivot:
+                items[j+1],items[i+1] = items[i+1], items[j+1]
                 i += 1
-        x[0],x[i] = x[i],x[0]
-        first_part = quicksort(x[:i])
-        second_part = quicksort(x[i+1:])
-        first_part.append(x[i])
+        items[0],items[i] = items[i],items[0]
+        first_part = quicksort(items[:i])
+        second_part = quicksort(items[i+1:])
+        first_part.append(items[i])
         return first_part + second_part
