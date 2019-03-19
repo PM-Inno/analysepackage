@@ -1,0 +1,10 @@
+README.md
+setup.py
+analysepackage/__init__.py
+analysepackage/recursion.py
+analysepackage/sorting.py
+analysepackage.egg-info/PKG-INFO
+analysepackage.egg-info/SOURCES.txt
+analysepackage.egg-info/dependency_links.txt
+analysepackage.egg-info/requires.txt
+analysepackage.egg-info/top_level.txt
